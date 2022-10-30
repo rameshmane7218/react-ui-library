@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
       <Thing />
-      <Button onClick={()=>console.log("custom button")}>click me!</Button>
+      <Button>click me!</Button>
       {/* <button onClick={()=>console.log("hii")}>original button</button> */}
     </div>
   );
