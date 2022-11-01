@@ -10,10 +10,12 @@ export interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
   leftIcon?: ReactNode;
   rightIcon?: ReactNode;
 }
-
+/**
+ * Simple Button component
+ */
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
-  (props, ref) => {
-    const {
+  (
+    {
       children,
       onClick = () => {},
       size = 'md',
@@ -22,8 +24,9 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       rightIcon,
       leftIcon,
       ...rest
-    } = props;
-
+    },
+    ref
+  ) => {
     console.log('size', size, rest);
 
     return (
