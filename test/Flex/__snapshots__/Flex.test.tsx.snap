@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flex Component render all flex direction 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-dkrFOg gDwFTQ"
+    width="100%"
+  >
+    <div
+      class="sc-dkrFOg jgclOZ"
+      width="100%"
+    >
+      <div
+        class="sc-gswNZR fnnikn"
+        width="none"
+      >
+        box1
+      </div>
+      <div
+        class="sc-gswNZR fnnikn"
+        width="none"
+      >
+        box2
+      </div>
+    </div>
+    <div
+      class="sc-dkrFOg gOZmkh"
+      width="100%"
+    >
+      <div
+        class="sc-gswNZR fnnikn"
+        width="none"
+      >
+        box1
+      </div>
+      <div
+        class="sc-gswNZR fnnikn"
+        width="none"
+      >
+        box2
+      </div>
+    </div>
+    <div
+      class="sc-dkrFOg gDwFTQ"
+      width="100%"
+    >
+      <div
+        class="sc-gswNZR fnnikn"
+        width="none"
+      >
+        box1
+      </div>
+      <div
+        class="sc-gswNZR fnnikn"
+        width="none"
+      >
+        box2
+      </div>
+    </div>
+    <div
+      class="sc-dkrFOg ejOEiZ"
+      width="100%"
+    >
+      <div
+        class="sc-gswNZR fnnikn"
+        width="none"
+      >
+        box1
+      </div>
+      <div
+        class="sc-gswNZR fnnikn"
+        width="none"
+      >
+        box2
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Flex Component render justifyContent properly 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-dkrFOg gDwFTQ"
+    width="100%"
+  >
+    <div
+      class="sc-dkrFOg fiUeUj"
+      width="100%"
+    >
+      <div
+        class="sc-gswNZR fnnikn"
+        width="none"
+      >
+        box1
+      </div>
+      <div
+        class="sc-gswNZR fnnikn"
+        width="none"
+      >
+        box2
+      </div>
+    </div>
+    <div
+      class="sc-dkrFOg dWWPIW"
+      width="100%"
+    >
+      <div
+        class="sc-gswNZR fnnikn"
+        width="none"
+      >
+        box1
+      </div>
+      <div
+        class="sc-gswNZR fnnikn"
+        width="none"
+      >
+        box2
+      </div>
+    </div>
+    <div
+      class="sc-dkrFOg eEjfs"
+      width="100%"
+    >
+      <div
+        class="sc-gswNZR fnnikn"
+        width="none"
+      >
+        box1
+      </div>
+      <div
+        class="sc-gswNZR fnnikn"
+        width="none"
+      >
+        box2
+      </div>
+    </div>
+    <div
+      class="sc-dkrFOg hSqOaI"
+      width="100%"
+    >
+      <div
+        class="sc-gswNZR fnnikn"
+        width="none"
+      >
+        box1
+      </div>
+      <div
+        class="sc-gswNZR fnnikn"
+        width="none"
+      >
+        box2
+      </div>
+    </div>
+    <div
+      class="sc-dkrFOg cigUhb"
+      width="100%"
+    >
+      <div
+        class="sc-gswNZR fnnikn"
+        width="none"
+      >
+        box1
+      </div>
+      <div
+        class="sc-gswNZR fnnikn"
+        width="none"
+      >
+        box2
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

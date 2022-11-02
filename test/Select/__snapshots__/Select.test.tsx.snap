@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select Component should render all variants 1`] = `
+<DocumentFragment>
+  <select
+    class="sc-eDvSVe TRPDq"
+    width="none"
+  >
+    <option
+      class="sc-hLBbgP gpMNOI"
+      disabled=""
+      selected=""
+      value=""
+    >
+      outline
+    </option>
+  </select>
+  <select
+    class="sc-eDvSVe bhpNXf"
+    width="none"
+  >
+    <option
+      class="sc-hLBbgP gpMNOI"
+      disabled=""
+      selected=""
+      value=""
+    >
+      solid
+    </option>
+  </select>
+  <select
+    class="sc-eDvSVe eivTCK"
+    width="none"
+  >
+    <option
+      class="sc-hLBbgP gpMNOI"
+      disabled=""
+      selected=""
+      value=""
+    >
+      underline
+    </option>
+  </select>
+  <select
+    class="sc-eDvSVe dbcdst"
+    width="none"
+  >
+    <option
+      class="sc-hLBbgP gpMNOI"
+      disabled=""
+      selected=""
+      value=""
+    >
+      none
+    </option>
+  </select>
+</DocumentFragment>
+`;

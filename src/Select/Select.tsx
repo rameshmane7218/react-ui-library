@@ -4,11 +4,13 @@ import { StyledSelect } from './Select.styled';
 
 export interface SelectProps extends HTMLAttributes<HTMLSelectElement> {
   children?: ReactNode;
-  onChange: () => void;
+  onChange?: () => void;
   variant?: 'outline' | 'solid' | 'underline' | 'none';
   // size?: 'xs' | 'sm' | 'md' | 'lg';
   placeholder?: string | undefined;
   width?: string;
+  disabled?: boolean;
+  defaultValue?: string | number;
 }
 
 /**
@@ -27,6 +29,8 @@ export const Select = forwardRef<HTMLSelectElement, SelectProps>(
       width = 'none',
       // size = 'sm',
       placeholder,
+      defaultValue = '',
+      disabled = false,
       ...rest
     },
     ref
@@ -37,10 +41,12 @@ export const Select = forwardRef<HTMLSelectElement, SelectProps>(
         onChange={onChange}
         variant={variant}
         width={width}
+        disabled={disabled}
+        defaultValue=""
         {...rest}
       >
         {placeholder && (
-          <Option disabled selected>
+          <Option disabled={true} value="">
             {placeholder}
           </Option>
         )}

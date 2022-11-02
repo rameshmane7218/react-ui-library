@@ -1,7 +1,7 @@
 import React, { forwardRef, HTMLAttributes, ReactNode } from 'react';
 import { BoxStyled } from '../Box/Box.styled';
 export interface BoxProps extends HTMLAttributes<HTMLDivElement> {
-  children: ReactNode;
+  children?: ReactNode;
   shadow?: 'xs' | 'sm' | 'md' | 'lg' | 'outline' | 'none';
   rounded?: string | number;
   width?: string;

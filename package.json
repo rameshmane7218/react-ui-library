@@ -37,7 +37,6 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"

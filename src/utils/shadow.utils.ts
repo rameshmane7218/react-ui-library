@@ -20,7 +20,6 @@ const shadows = {
 type shadowProps = 'xs' | 'sm' | 'md' | 'lg' | 'outline' | 'none';
 
 export const shadow = (shadow: shadowProps) => {
-  console.log('shadow', shadow);
   if (typeof shadow !== undefined) {
     return shadows[shadow];
   } else {

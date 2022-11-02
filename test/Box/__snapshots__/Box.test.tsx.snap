@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Box Component should have correctly css properties 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gswNZR kdirRG"
+    data-testid="cssBox"
+    width="200px"
+  >
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam quidem, beatae blanditiis voluptatum repellendus culpa repudiandae! Harum impedit nesciunt quo iusto eos, ipsum possimus officia, sunt voluptatem aliquid, eligendi illo!
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Box Component should render all shadows variant component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gswNZR gkifKp"
+    width="none"
+  >
+    xs
+  </div>
+  <div
+    class="sc-gswNZR jxNCQO"
+    width="none"
+  >
+    sm
+  </div>
+  <div
+    class="sc-gswNZR bCWdAa"
+    width="none"
+  >
+    md
+  </div>
+  <div
+    class="sc-gswNZR bBaSGG"
+    width="none"
+  >
+    lg
+  </div>
+  <div
+    class="sc-gswNZR bIXJqn"
+    width="none"
+  >
+    outline
+  </div>
+  <div
+    class="sc-gswNZR fnnikn"
+    width="none"
+  >
+    none
+  </div>
+</DocumentFragment>
+`;

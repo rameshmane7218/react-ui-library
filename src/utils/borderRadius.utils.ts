@@ -15,7 +15,6 @@ const roundeds = {
 type roundedProps = 'sm' | 'md' | 'lg' | 'none';
 
 export const borderRadius = (rounded: roundedProps) => {
-  console.log('rounded', rounded);
   if (typeof rounded !== undefined) {
     return roundeds[rounded];
   } else {

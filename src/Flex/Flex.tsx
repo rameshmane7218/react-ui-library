@@ -1,7 +1,7 @@
 import React, { forwardRef, HTMLAttributes, ReactNode } from 'react';
 import { FlexStyled } from '../Flex/Flex.styled';
 export interface FlexProps extends HTMLAttributes<HTMLDivElement> {
-  children: ReactNode;
+  children?: ReactNode;
   flexDirection?: 'row' | 'row-reverse' | 'column' | 'column-reverse';
   gap?: string | number;
   width?: string;
