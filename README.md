@@ -1,5 +1,15 @@
 # React UI Library
 
+<p align="center">
+  <img alt="GitHub package.json dynamic" src="https://img.shields.io/github/package-json/version/rameshmane7218/react-ui-library/master">
+  <img alt="MIT License" src="https://img.shields.io/npm/l/@rameshmane7218/react-ui-library">
+  <img alt="NPM Downloads" src="https://img.shields.io/npm/dm/@rameshmane7218/react-ui-library">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rameshmane7218/react-ui-library">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/rameshmane7218/react-ui-library">
+</p>
+
+<br />
+
 React UI Library provides a set of accessible and customizable React components that make it easy to create websites.
 
 ## Installation
@@ -24,10 +34,10 @@ function App() {
 }
 ```
 
-[click here to see full documentation](https://react-ui-component-library.netlify.app/)
+[click here to see full documentation📝](https://react-ui-component-library.netlify.app/)
 
 ## License
 
-<img src="" width="40" alt="Ramesh Mane" align="center"/>
+<img src="https://raw.githubusercontent.com/rameshmane7218/react-ui-library/master/assets/ramesh.jpg" width="40" alt="Ramesh Mane" align="center"/>
 
 <a href="https://github.com/rameshmane7218/react-ui-library/blob/master/LICENSE">MIT @ Ramesh Mane</a>
