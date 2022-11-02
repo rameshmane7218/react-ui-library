@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Divider Component should render all variant 1`] = `
+<DocumentFragment>
+  <hr
+    class="sc-jSUZER gfvkWP"
+    width="100%"
+  />
+  <hr
+    class="sc-jSUZER haKBbh"
+    width="100%"
+  />
+  <hr
+    class="sc-jSUZER hgbkZc"
+    width="100%"
+  />
+</DocumentFragment>
+`;

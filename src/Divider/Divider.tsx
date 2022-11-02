@@ -3,19 +3,19 @@ import { StyledHr } from './Divider.styled';
 export interface HrProps extends HTMLAttributes<HTMLHRElement> {
   colorScheme?: string;
   width?: string | number;
-  variant?: 'solid' | 'dashed';
+  variant?: 'solid' | 'dashed' | 'dotted';
 }
 export const Divider = ({
   colorScheme,
-  width = '100%',
   variant = 'solid',
+  width = '100%',
   ...rest
 }: HrProps) => {
   return (
     <StyledHr
+      variant={variant}
       colorScheme={colorScheme}
       width={width}
-      variant={variant}
       {...rest}
     />
   );

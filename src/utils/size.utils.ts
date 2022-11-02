@@ -37,7 +37,6 @@ const paddings = {
 };
 
 export const padding = (size: sizeProps) => {
-  console.log('size', size);
   if (typeof size !== undefined) {
     return paddings[size];
   } else {

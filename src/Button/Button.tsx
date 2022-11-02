@@ -27,8 +27,6 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     },
     ref
   ) => {
-    console.log('size', size, rest);
-
     return (
       <ButtonStyled
         ref={ref}

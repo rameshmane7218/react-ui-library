@@ -1,8 +1,8 @@
-# React UI Library
+<h1 align="center"> React UI Library</h1>
 
 <p align="center">
-  <img alt="GitHub package.json dynamic" src="https://img.shields.io/github/package-json/version/rameshmane7218/react-ui-library/master">
-  <img alt="MIT License" src="https://img.shields.io/npm/l/@rameshmane7218/react-ui-library">
+  <a href="https://www.npmjs.com/package/@rameshmane7218/react-ui-library"  target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/@rameshmane7218/react-ui-library"></a>
+  <a href="https://github.com/rameshmane7218/react-ui-library/blob/master/LICENSE"  target="_blank"><img alt="MIT License" src="https://img.shields.io/npm/l/@rameshmane7218/react-ui-library"></a>
   <img alt="NPM Downloads" src="https://img.shields.io/npm/dm/@rameshmane7218/react-ui-library">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rameshmane7218/react-ui-library">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/rameshmane7218/react-ui-library">

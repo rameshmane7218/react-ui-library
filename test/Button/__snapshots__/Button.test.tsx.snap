@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button matches snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-bcXHqe czdsTe"
+  >
+    button
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button should render all sizes 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-bcXHqe jnPCbJ"
+  >
+    xs
+  </button>
+  <button
+    class="sc-bcXHqe kHDZeg"
+  >
+    sm
+  </button>
+  <button
+    class="sc-bcXHqe czdsTe"
+  >
+    md
+  </button>
+  <button
+    class="sc-bcXHqe cBNtft"
+  >
+    lg
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button should render all variant 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-bcXHqe czdsTe"
+  >
+    primary
+  </button>
+  <button
+    class="sc-bcXHqe cbjsJS"
+  >
+    secondary
+  </button>
+</DocumentFragment>
+`;
