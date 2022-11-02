@@ -1,12 +1,24 @@
 {
   "name": "@rameshmane7218/react-ui-library",
-  "author": "rameshmane7218",
-  "repository": "https://github.com/rameshmane7218/react-ui-library",
-  "homepage": "https://react-ui-component-library.netlify.app",
   "version": "0.3.1",
-  "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "repository": "https://github.com/rameshmane7218/react-ui-library",
+  "homepage": "https://react-ui-component-library.netlify.app",
+  "author": "rameshmane7218",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "javascript",
+    "components",
+    "typescript",
+    "react-components",
+    "styled-components",
+    "component-library",
+    "a11y",
+    "TSDX React",
+    "Storybook"
+  ],
   "files": [
     "dist",
     "src"
