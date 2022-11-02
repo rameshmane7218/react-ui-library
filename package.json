@@ -1,4 +1,8 @@
 {
+  "name": "@rameshmane7218/react-ui-library",
+  "author": "rameshmane7218",
+  "repository": "https://github.com/rameshmane7218/react-ui-library",
+  "homepage": "https://react-ui-component-library.netlify.app",
   "version": "0.3.0",
   "license": "MIT",
   "main": "dist/index.js",
@@ -35,8 +39,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@rameshmane7218/react-ui-library",
-  "author": "rameshmane7218",
   "module": "dist/react-ui-library.esm.js",
   "size-limit": [
     {
