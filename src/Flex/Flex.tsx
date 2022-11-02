@@ -2,9 +2,6 @@ import React, { forwardRef, HTMLAttributes, ReactNode } from 'react';
 import { FlexStyled } from '../Flex/Flex.styled';
 export interface FlexProps extends HTMLAttributes<HTMLDivElement> {
   children: ReactNode;
-  /**
-   * Flex direction
-   */
   flexDirection?: 'row' | 'row-reverse' | 'column' | 'column-reverse';
   gap?: string | number;
   width?: string;
@@ -39,9 +36,12 @@ export interface FlexProps extends HTMLAttributes<HTMLDivElement> {
 }
 
 /**
- * This is Flexbox
+ * Flex is Box with display set to flex and comes with helpful style shorthand. It renders a `div` element.
+ * ```
+ * //import Flex component:-
+ * import {Flex} from '@rameshmane7218/react-ui-library';
+ * ```
  */
-
 export const Flex = forwardRef<HTMLDivElement, FlexProps>(
   (
     {
