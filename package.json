@@ -1,6 +1,6 @@
 {
   "name": "@rameshmane7218/react-ui-library",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "repository": "https://github.com/rameshmane7218/react-ui-library",
