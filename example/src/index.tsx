@@ -1,7 +1,7 @@
 import 'react-app-polyfill/ie11';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { Thing, Button } from '../../src';
+import { Thing, Button, PinInputExample } from '../../src';
 
 const App = () => {
   const btnRef = React.useRef<HTMLButtonElement | null>(null);
@@ -28,8 +28,9 @@ const App = () => {
         // onClick={handleOnClick}
         // onMouseLeave={() => console.log('mouse leave')}
       >
-        original button
+        button
       </button>
+      <PinInputExample />
     </div>
   );
 };

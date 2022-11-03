@@ -4,3 +4,4 @@ export * from './Box';
 export * from './Flex';
 export * from './Select';
 export * from './Divider';
+export * from './PinInput';
