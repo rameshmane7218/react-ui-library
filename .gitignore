@@ -9,3 +9,6 @@ dist
 
 # Storybook build folders
 storybook-static
+
+# github workflow
+.github
