@@ -17,9 +17,14 @@ React UI Library provides a set of accessible and customizable React components 
 ```bash
 npm install @rameshmane7218/react-ui-library
 
+# Peer Dependencies - Also Required
+npm install react react-dom styled-components @rameshmane7218/react-ui-library
 # or
 
 yarn add @rameshmane7218/react-ui-library
+
+# Peer Dependencies - Also Required
+yarn add react react-dom styled-components @rameshmane7218/react-ui-library
 ```
 
 ## Getting Started

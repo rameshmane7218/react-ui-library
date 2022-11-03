@@ -11,7 +11,7 @@ export interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
   rightIcon?: ReactNode;
 }
 /**
- * Simple Button component
+ * Button component is used to trigger an action or event, such as submitting a form or performing a delete operation.
  */
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   (

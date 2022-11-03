@@ -14,9 +14,11 @@ export interface PinInputProps extends HTMLAttributes<HTMLInputElement> {
   defaultValue?: string;
   length?: number;
   limitPerBox?: number;
-  setPin: Function;
+  setPin?: Function;
 }
 /** The PinInput component is similar to the Input component, but is optimized for entering sequences of digits quickly.
+ *  ```import {PinInput} from '@rameshmane7218/react-ui-library'
+ * ```
  *
  */
 export const PinInput = ({
@@ -24,7 +26,7 @@ export const PinInput = ({
   placeholder = '〇',
   length = 4,
   limitPerBox = 1,
-  setPin,
+  setPin = () => {},
 }: PinInputProps) => {
   const [pinArray, setPinArray] = useState<string[]>(
     new Array(length).fill('')
@@ -89,7 +91,7 @@ export const PinInput = ({
   }, []);
   return (
     <StyledPinInput
-      onPaste={e => {
+      onPaste={(e) => {
         let input = e.clipboardData.getData('Text');
         handleOnPaste(input);
       }}
@@ -98,7 +100,7 @@ export const PinInput = ({
         <InputField
           key={index}
           value={val}
-          ref={element => {
+          ref={(element) => {
             if (element) {
               inputRef.current[index] = element;
             }
@@ -106,8 +108,8 @@ export const PinInput = ({
           placeholder={placeholder}
           limitPerBox={limitPerBox}
           isSuccessful={isSuccessful}
-          onChange={e => handleChange(e, index)}
-          onKeyUp={e => handleKeyUp(e, index)}
+          onChange={(e) => handleChange(e, index)}
+          onKeyUp={(e) => handleKeyUp(e, index)}
         />
       ))}
     </StyledPinInput>

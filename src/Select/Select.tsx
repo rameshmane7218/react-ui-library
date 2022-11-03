@@ -42,7 +42,7 @@ export const Select = forwardRef<HTMLSelectElement, SelectProps>(
         variant={variant}
         width={width}
         disabled={disabled}
-        defaultValue=""
+        defaultValue={defaultValue}
         {...rest}
       >
         {placeholder && (

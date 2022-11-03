@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PinInput Component should have correct default value 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-iBYQkv euSEBe"
+  >
+    <input
+      class="sc-gKPRtg EKkfY"
+      maxlength="2"
+      placeholder="〇"
+      type="text"
+      value="12"
+    />
+    <input
+      class="sc-gKPRtg EKkfY"
+      maxlength="2"
+      placeholder="〇"
+      type="text"
+      value="34"
+    />
+    <input
+      class="sc-gKPRtg EKkfY"
+      maxlength="2"
+      placeholder="〇"
+      type="text"
+      value="56"
+    />
+    <input
+      class="sc-gKPRtg EKkfY"
+      maxlength="2"
+      placeholder="〇"
+      type="text"
+      value="78"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PinInput Component should render PinInput component without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-iBYQkv euSEBe"
+  >
+    <input
+      class="sc-gKPRtg EKkfY"
+      maxlength="1"
+      placeholder="〇"
+      type="text"
+      value=""
+    />
+    <input
+      class="sc-gKPRtg EKkfY"
+      maxlength="1"
+      placeholder="〇"
+      type="text"
+      value=""
+    />
+    <input
+      class="sc-gKPRtg EKkfY"
+      maxlength="1"
+      placeholder="〇"
+      type="text"
+      value=""
+    />
+    <input
+      class="sc-gKPRtg EKkfY"
+      maxlength="1"
+      placeholder="〇"
+      type="text"
+      value=""
+    />
+  </div>
+</DocumentFragment>
+`;

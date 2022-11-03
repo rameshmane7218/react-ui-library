@@ -5,6 +5,9 @@ export interface HrProps extends HTMLAttributes<HTMLHRElement> {
   width?: string | number;
   variant?: 'solid' | 'dashed' | 'dotted';
 }
+/**
+ * The `Divider` component represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section.
+ */
 export const Divider = ({
   colorScheme,
   variant = 'solid',

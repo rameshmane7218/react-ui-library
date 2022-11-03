@@ -8,7 +8,10 @@ export interface BoxProps extends HTMLAttributes<HTMLDivElement> {
   border?: string;
   padding?: string | number;
 }
-
+/**
+ * The Box component serves as a wrapper component for most of the CSS utility needs. By default, it renders a `div` element
+ *
+ */
 export const Box = forwardRef<HTMLDivElement, BoxProps>(
   (
     {
