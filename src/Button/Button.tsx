@@ -1,6 +1,5 @@
 import React, { forwardRef, HTMLAttributes, ReactNode } from 'react';
 import { ButtonStyled } from './Button.styled';
-
 export interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
   onClick?: () => void;

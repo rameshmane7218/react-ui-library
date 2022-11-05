@@ -1,7 +1,8 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { Button, ButtonProps } from '../../src/Button';
-
+import { Button, ButtonProps, Flex } from '../../src';
+import { MdDownloading } from 'react-icons/md';
+import { FaWhatsapp } from 'react-icons/fa';
 const meta: Meta = {
   title: 'Button',
   component: Button,
@@ -20,15 +21,15 @@ export const Default = Template.bind({});
 
 export const Variant = () => {
   return (
-    <div style={{ display: 'flex', gap: '20px' }}>
+    <Flex gap={20}>
       <Button variant="primary">primary</Button>
       <Button variant="secondary">secondary</Button>
-    </div>
+    </Flex>
   );
 };
 export const ButtonSize = () => {
   return (
-    <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
+    <Flex gap={20}>
       <Button variant="primary" size="xs">
         Button
       </Button>
@@ -41,8 +42,17 @@ export const ButtonSize = () => {
       <Button variant="primary" size="lg">
         Button
       </Button>
-    </div>
+    </Flex>
   );
 };
 
 ButtonSize.storyName = 'Button Sizes';
+
+export const ButtonIcons = () => {
+  return (
+    <Flex gap={20}>
+      <Button leftIcon={<FaWhatsapp />}>WhatsApp</Button>
+      <Button rightIcon={<MdDownloading />}>Download</Button>
+    </Flex>
+  );
+};
